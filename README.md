@@ -2,9 +2,13 @@
 
 ## Used
 
-[guide](https://www.digitalocean.com/community/tutorials/how-to-secure-a-containerized-node-js-application-with-nginx-let-s-encrypt-and-docker-compose)
+[guide](https://medium.com/@pentacent/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71)
+
+## Usage
 
 ```bash
-$ crontab -e
-0 12 * * * /root/task/ssl_renew.sh >> /var/log/cron.log 2>&1
+$ ./init-letsencrypt.sh
+
+# //or
+$ docker-compose up
 ```
