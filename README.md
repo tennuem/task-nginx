@@ -7,7 +7,7 @@
 ## Usage
 
 ```bash
-$ ./init-letsencrypt.sh
+$ sudo bash init-letsencrypt.sh
 
 # //or
 $ docker-compose up
